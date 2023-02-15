@@ -56,15 +56,7 @@ URL: ` http://localhost:8000/api/v1`
 
 
 
-## Unit Tesing 
 
-1. Run following command: `npm test` for unit-tesing.
- 
-- Used `mocha` as a server and `chai` for assertion library.
-
-1. Testing for `/patients/register`
-2. Testing for `/patients/:id/create_report`
-3. Testing for `/patients/:id/all_reports`
 
 
 
@@ -74,7 +66,7 @@ URL: ` http://localhost:8000/api/v1`
 - **controllers** : The controllers for various urls like Doctor API or Patient API or Report API.
 - **models** : Mongoose Schemas for the Doctors, Patients and reports.
 - **routes** : Different routes for different request urls.
-- **test** : Test files for testing different routes.
+
 
 
 
